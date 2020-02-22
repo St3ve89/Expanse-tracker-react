@@ -1,8 +1,10 @@
 import React from 'react';
+import { Header } from './components/Header';
+
 import './App.css';
 
 function App() {
-  return <div>Hello wordl!</div>;
+  return <Header title='Expanse Tracker' />;
 }
 
 export default App;
